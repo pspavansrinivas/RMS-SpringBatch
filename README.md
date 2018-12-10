@@ -1,4 +1,4 @@
-# Spring Boot Parallel Batch
+# Spring Boot Multi-threaded Batch
 
 A Spring Boot Batch application that take two input parameters, the first one is path to a text file, the second one is number of threads. The batch  should take the file input and split the file content by lines to each thread and run Caesar cipher for each line, the final output should be an encrypted text file.
 
