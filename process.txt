@@ -1,0 +1,168 @@
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-10 02:26:19.289  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Starting EncryptfilebatchApplication on 192-168-1-197.tpgi.com.au with PID 2591 (/Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch/target/classes started by pavan in /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch)
+2018-12-10 02:26:19.294  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : No active profile set, falling back to default profiles: default
+2018-12-10 02:26:20.135  INFO 2591 --- [           main] uration$$EnhancerBySpringCGLIB$$11231b18 : CWD - /Users/pavan/Documents/projects/recruitment/rms/encryptfilebatch
+2018-12-10 02:26:20.291  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-10 02:26:20.294  WARN 2591 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.hsqldb.jdbcDriver was not found, trying direct instantiation.
+2018-12-10 02:26:20.601  INFO 2591 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2018-12-10 02:26:20.604  INFO 2591 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-10 02:26:20.612  INFO 2591 --- [           main] o.s.b.c.r.s.JobRepositoryFactoryBean     : No database type set, using meta data indicating: HSQL
+2018-12-10 02:26:20.762  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : No TaskExecutor has been set, defaulting to synchronous executor.
+2018-12-10 02:26:20.944  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : Started EncryptfilebatchApplication in 2.16 seconds (JVM running for 2.685)
+2018-12-10 02:26:20.945  INFO 2591 --- [           main] o.s.b.a.b.JobLauncherCommandLineRunner   : Running default command line with: [./process.txt, 10]
+2018-12-10 02:26:21.000  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{run.id=1}]
+2018-12-10 02:26:21.019  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:22.039  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{run.id=1}] and the following status: [COMPLETED]
+2018-12-10 02:26:22.040  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Starting Job **************
+2018-12-10 02:26:22.045  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] launched with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}]
+2018-12-10 02:26:22.051  INFO 2591 --- [           main] o.s.batch.core.job.SimpleStepHandler     : Executing step: [splitFileStep]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] o.s.b.c.l.support.SimpleJobLauncher      : Job: [SimpleJob: [name=readFileAndEncrypt]] completed with the following parameters: [{inputFile=./process.txt, outputPath=plaintext_split, threadCount=10}] and the following status: [COMPLETED]
+2018-12-10 02:26:23.067  INFO 2591 --- [           main] a.n.r.b.e.EncryptfilebatchApplication    : *********** Batch Job Started **************
+2018-12-10 02:26:23.072  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-10 02:26:23.074  INFO 2591 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
